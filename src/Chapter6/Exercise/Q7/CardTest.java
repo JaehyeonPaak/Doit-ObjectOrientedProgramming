@@ -5,7 +5,7 @@ public class CardTest {
         CardCompany cardCompany = CardCompany.getInstance();
         cardCompany.createCard("Bank1");
         cardCompany.createCard("Bank2");
-        cardCompany.createCard("Bank3");
+        cardCompany.createCard("PayPal");
         cardCompany.getCardsInfo();
     }
 }
