@@ -1,4 +1,4 @@
-package Chapter7.Q2;
+package Chapter7.Exercise.Q2;
 
 public class CharArray {
     public static void main(String[] args) {

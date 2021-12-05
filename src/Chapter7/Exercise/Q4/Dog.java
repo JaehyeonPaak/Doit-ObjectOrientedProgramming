@@ -1,4 +1,4 @@
-package Chapter7.Q4;
+package Chapter7.Exercise.Q4;
 
 public class Dog {
     private String name;

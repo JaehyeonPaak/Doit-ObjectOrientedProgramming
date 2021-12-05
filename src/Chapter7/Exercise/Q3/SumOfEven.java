@@ -1,4 +1,4 @@
-package Chapter7.Q3;
+package Chapter7.Exercise.Q3;
 
 public class SumOfEven {
     public static void main(String[] args) {

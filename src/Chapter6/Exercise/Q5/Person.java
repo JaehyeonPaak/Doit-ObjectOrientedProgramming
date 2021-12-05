@@ -1,4 +1,4 @@
-package Chapter6;
+package Chapter6.Exercise.Q5;
 
 public class Person {
     String name;

@@ -1,4 +1,4 @@
-package Chapter6;
+package Chapter6.Exercise.Q5;
 
 public class BuyingCoffee {
     public static void main(String[] args) {
