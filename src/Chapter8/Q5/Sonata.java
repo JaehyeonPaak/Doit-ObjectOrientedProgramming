@@ -9,17 +9,17 @@ public class Sonata extends Car {
 
     @Override
     public void drive() {
-        System.out.println(" is speeding up");
+        System.out.println("Sonata is speeding up");
     }
 
     @Override
     public void stop() {
-        System.out.println(" is stopping");
+        System.out.println("Sonata is stopping");
     }
 
     @Override
     public void turnoff() {
-        System.out.println(" turn off the engine");
+        System.out.println("Sonata turn off the engine");
     }
     
 }
