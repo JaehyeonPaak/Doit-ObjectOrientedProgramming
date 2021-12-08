@@ -10,6 +10,7 @@ public class FootballClubTest {
         System.out.println("Press C for Chelsea");
         System.out.println("Press L for Liverpool");
         System.out.println("Press M for ManchesterCity");
+        System.out.println("Press T for Tottenham");
         
         int ch = System.in.read();
         if(ch == 'C' || ch == 'c') {
@@ -20,6 +21,9 @@ public class FootballClubTest {
         }
         else if(ch == 'M' || ch == 'm') {
             clubs = new ManchesterCity();
+        }
+        else if(ch == 'T' || ch == 't') {
+            clubs = new Tottenham();
         }
         else {
             System.out.println("Nothing correspond");
