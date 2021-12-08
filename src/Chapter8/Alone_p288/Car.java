@@ -1,4 +1,4 @@
-package Chapter8.Alone;
+package Chapter8.Alone_p288;
 
 public abstract class Car {
     public abstract void run();
