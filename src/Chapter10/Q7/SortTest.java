@@ -26,9 +26,9 @@ public class SortTest {
         }
 
         int[] arr = {4, 2, 1, 5, 7, 9, 8, 6, 3, 0};
-        
+
         sort.description();
-        sort.ascending(arr);
-        sort.descending(arr);
+        System.out.println(sort.ascending(arr).toString());
+        System.out.println(sort.descending(arr));;
     }
 }

@@ -3,13 +3,15 @@ package Chapter10.Q7;
 public class HeadSort implements Sort {
 
     @Override
-    public void ascending(int[] arr) {
+    public int[] ascending(int[] arr) {
         System.out.println("Ascending Array Via Head Sort");
+        return arr;
     }
 
     @Override
-    public void descending(int[] arr) {
+    public int[] descending(int[] arr) {
         System.out.println("Descending Array Via Head Sort");
+        return arr;
     }
     
 }
