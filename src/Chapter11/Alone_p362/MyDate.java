@@ -15,10 +15,7 @@ class MyDate {
     public boolean equals(Object obj) {
         if(obj instanceof MyDate) {
             MyDate date = (MyDate)obj;
-            if(day == date.day && month == date.month && year == date.year) {
-                return true;
-            }
-            return false;
+            return (day == date.day && month == date.month && year == date.year);
         }
         return false;
     }
