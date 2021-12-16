@@ -22,7 +22,7 @@ class MyDate {
 
     @Override
     public int hashCode() {
-        return day;
+        return (year * 10000) + (month * 100) + day;
     }
 
     public static void main(String[] args) {
