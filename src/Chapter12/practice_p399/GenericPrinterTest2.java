@@ -1,0 +1,14 @@
+package Chapter12.practice_p399;
+
+public class GenericPrinterTest2 {
+    public static void main(String[] args) {
+
+        GenericPrinter<Plastic> plasticPrinter = new GenericPrinter<Plastic>();
+        plasticPrinter.setMaterial(new Plastic());
+        plasticPrinter.printing();
+
+        GenericPrinter<Powder> powderPrinter = new GenericPrinter<Powder>();
+        powderPrinter.setMaterial(new Powder());
+        powderPrinter.printing();
+    }
+}
